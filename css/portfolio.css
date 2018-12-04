@@ -1,0 +1,33 @@
+div a{
+  text-decoration:none;
+}
+
+.link-newnutruion{
+  text-align: justify;
+  border: 10px solid #000000;
+  padding: 20px;
+  width: 380px;
+  margin: 20px 0px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.link-athletica{
+  text-align: justify;
+  border: 10px solid #000000;
+  padding: 20px;
+  width: 380px;
+  margin: 20px -60px;
+  box-sizing: border-box;
+  float: right;
+}
+
+.link-top-therm{
+  text-align: justify;
+  border: 10px solid #000000;
+  padding: 20px;
+  width: 380px;
+  margin: 0px 140px;
+  box-sizing: border-box;
+  float: right;
+}
