@@ -1,8 +1,18 @@
+html{
+  font-size: 120%;
+}
+
+html, body{
+  height: 100%;
+  overflow-x: hidden;
+}
+
 body {
     font-family: "Crimson Text", serif;
     background-color: #F2FFFC;
-    font-size: 120%;
     line-height: 1.5;
+    perspective: 6px;
+    perspective-origin: 50% 160px;
 }
 
 main{
@@ -19,14 +29,18 @@ h2{
 }
 
 .titulo {
-    font-size: 60px;
+    font-size: 300%;
     text-align: center;
     background-color: #009933;
     color: #FFF;
-    padding: 25px;
+    padding: 1.25rem;
     margin: 0px;
-    border-bottom: 10px solid black;
+    border-bottom: 0.5rem solid black;
     text-transform: uppercase;
+}
+
+.subtitulo-principal {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
 main h2{
@@ -44,49 +58,10 @@ main a{
   color: #16942d
 }
 
-article {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
 p {
     text-align: justify;
     font-family: "Crimson Text";
     margin: 20px 0px;
-}
-
-.citacao-1{
-  background-color: #D9E5E3;
-  padding: 20px;
-  border: 10px solid #C2CCCA;
-  border-bottom-color: #27794c;
-  border-right-color: #27794c;
-  width: 250px;
-  margin: 20px 40px;
-  box-sizing: border-box;
-  float: right;
-}
-
-.citacao-2{
-  background-color: #D9E5E3;
-  padding: 20px;
-  border: 10px solid #C2CCCA;
-  border-bottom-color: #27794c;
-  border-left-color: #27794c;
-  width: 250px;
-  margin: 20px 40px;
-  box-sizing: border-box;
-  float:left;
-}
-
-.leia-mais{
-    padding: 8px;
-    margin: 16px;
-    display: block;
-    font-size: 24px;
-    text-align: center;
-    background-color: #E6E7E8;
 }
 
 aside {
@@ -103,7 +78,6 @@ aside {
     box-sizing: border-box;
     position: relative;
     top: 310px;
-
 }
 
 .foto-perfil{
@@ -118,7 +92,6 @@ aside {
     position: absolute;
     top: 0px;
     right: 0px;
-
 }
 
 aside h1{
@@ -149,7 +122,6 @@ nav a {
   color: #FFFFFF;
   text-indent: -9999px;
 }
-
 .github-icone{
   background-image: url(imagens/github.png);
 }
@@ -159,7 +131,7 @@ nav a {
 }
 
 .linkedin-icone{
-  background-image: url(imagens/twitter.png);
+  background-image: url(imagens/linkedin.png);
 }
 
 footer {
@@ -178,9 +150,4 @@ strong {
 
 em {
     font-style: italic;
-}
-
-cite{
-  font-style: italic;
-  float: right;
 }
